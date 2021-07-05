@@ -1,4 +1,4 @@
-package com.tybootcamp.ecomm.enums;
+package com.tybootcamp.ecomm.entities;
 
 public enum Gender {
     Female, Male;

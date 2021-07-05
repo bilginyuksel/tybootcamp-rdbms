@@ -2,7 +2,7 @@ package com.tybootcamp.ecomm;
 
 import com.github.javafaker.Book;
 import com.github.javafaker.Faker;
-import com.tybootcamp.ecomm.enums.Gender;
+import com.tybootcamp.ecomm.entities.Gender;
 import com.tybootcamp.ecomm.entities.Category;
 import com.tybootcamp.ecomm.entities.Product;
 import com.tybootcamp.ecomm.entities.Profile;
@@ -10,7 +10,6 @@ import com.tybootcamp.ecomm.entities.Seller;
 import com.tybootcamp.ecomm.repositories.CategoryRepository;
 import com.tybootcamp.ecomm.repositories.ProductJpaRepository;
 import com.tybootcamp.ecomm.repositories.SellerRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

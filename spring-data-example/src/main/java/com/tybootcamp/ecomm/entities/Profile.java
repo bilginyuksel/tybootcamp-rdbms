@@ -1,7 +1,6 @@
 package com.tybootcamp.ecomm.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.tybootcamp.ecomm.enums.Gender;
 
 import java.util.Date;
 

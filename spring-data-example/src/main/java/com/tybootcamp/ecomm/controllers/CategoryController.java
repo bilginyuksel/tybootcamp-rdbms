@@ -14,17 +14,17 @@ import javax.validation.Valid;
 public class CategoryController {
     private final CategoryService categoryService;
 
-    @GetMapping(path = "")
+    @GetMapping
     public ResponseEntity<?> getCategoryByName(@RequestParam(value = "name") String name) {
         return ResponseEntity.ok(categoryService.getCategoryByName(name));
     }
 
-    @PostMapping(path = "")
+    @PostMapping
     public ResponseEntity<Category> addNewCategory(@RequestParam(value = "name") String name) {
         return ResponseEntity.ok(categoryService.addNewCategory(name));
     }
 
-    @PutMapping(path = "")
+    @PutMapping
     public ResponseEntity<?> updateCategory(@Valid @RequestBody Category category) {
         return ResponseEntity.ok(categoryService.updateCategory(category));
     }
